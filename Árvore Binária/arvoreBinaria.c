@@ -28,7 +28,7 @@ int main(void)
                 case 1: 
                     printf("Digite os elementos da árvore: ");
                     scanf("%d", &num);
-                    generate(&inicio, num);
+                    gera(&inicio, num);
                     break;
 
                 case 2: 
@@ -36,7 +36,7 @@ int main(void)
                     break;
 
                 case 3: 
-                    delete(&inicio);
+                    excluir(&inicio);
                     printf("Memória limpa\n\nPROGRAMA FINALIZADO\n");
                     break;
 
